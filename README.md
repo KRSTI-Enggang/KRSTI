@@ -40,7 +40,10 @@ Board dan hardware yang digunakan
 - Arduino Servo Compatible ?
 
 Kerangka Mekanik 
--  
+- ??
+
+Elektrikal
+- ??
 
 
 
