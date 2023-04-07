@@ -13,7 +13,7 @@
 const uint8_t pinSuara = A0;
 int nilai;
 float tegangan;
-bool musik = false;
+int musik;
 
 void suaraMusik() {
   nilai = analogRead(pinSuara);
@@ -22,10 +22,10 @@ void suaraMusik() {
 
 void klasifikasiSuara() {
   if (tegangan <= 3) {
-    musik = false;
+    musik = 0;
   }
   else if (tegangan >= 3) {
-    musik = true;
+    musik = 1;
   }
 }
 #endif
