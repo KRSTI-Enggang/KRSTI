@@ -1,4 +1,5 @@
-#ifndef ZONA_B_H
+#ifndef ZONAB_H
+#define ZONAB_H
 
 #define VERSION "1.0.0"
 #define DEBUG true
@@ -8,4 +9,3 @@
  * member servo ID dan menuliskan derajat servo dan waktu gerakan tarian pada zona B.
  */
 #endif
-
