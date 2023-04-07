@@ -3,6 +3,7 @@
 #define VERSION "1.0.0"
 #define DEBUG true
 #include <Servo.h>
+#include <Arduino.h>
 Servo servoKiri;
 /**
  * File yang berisi sekumpulan member untuk menggambar tubuh tengah
