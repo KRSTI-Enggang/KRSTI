@@ -8,7 +8,6 @@
 #include "master.h"
 #include "slave.h"
 #include <Servo.h>
-  
 
 bool modeMaster = true;
 
