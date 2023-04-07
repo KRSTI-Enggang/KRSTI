@@ -1,5 +1,5 @@
-#ifndef ZONA_A_H
-#define ZONA_A_H
+#ifndef ZONAA_H
+#define ZONAA_H
 
 #define VERSION "1.0.0"
 #define DEBUG true
@@ -10,4 +10,3 @@
  */
 
 #endif
-
