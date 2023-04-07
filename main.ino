@@ -10,19 +10,29 @@
 #include <Servo.h>
   
 
-void setup() {  
-//Serial Baudrate
+bool modeMaster = true;
+
+void setup() {
+  //Serial Baudrate
   Serial.begin(115200);
-  
-// Inisiasi Tubuh
+
+  // Inisiasi Tubuh
   tubuhTengah();
   tubuhKanan();
   tubuhKiri();
-  
 }
 
 void loop() {
+  //Inisiasi Sebagai master/slave
+  if (modeMaster == true) {
+
+  } else {
+    
+  }
+
+  //Inisiasi fungsi Suara
   klasifikasiSuara();
   suaraMusik();
 
+  
 }
