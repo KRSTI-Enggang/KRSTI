@@ -7,9 +7,17 @@
 #include "zonaB.h"
 #include "master.h"
 #include "slave.h"
+#include <Servo.h>
+  
 
-void setup() {
+void setup() {  
+//Serial Baudrate
   Serial.begin(115200);
+  
+// Inisiasi Tubuh
+  tubuhTengah();
+  tubuhKanan();
+  tubuhKiri();
   
 }
 
