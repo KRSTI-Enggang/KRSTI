@@ -22,16 +22,15 @@ void setup() {
 }
 
 void loop() {
+  
   //Inisiasi Sebagai master/slave
   if (modeMaster == true) {
-
+    master();
   } else {
-    
+    slave();
   }
 
   //Inisiasi fungsi Suara
   klasifikasiSuara();
   suaraMusik();
-
-  
 }
