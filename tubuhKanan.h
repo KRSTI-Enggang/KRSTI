@@ -2,6 +2,7 @@
 #define TUBUHKANAN_H
 #define VERSION "1.0.0"
 #define DEBUG true
+#include <Arduino.h>
 #include <Servo.h>
 Servo servoKanan;
 
