@@ -20,7 +20,6 @@ void suaraMusik() {
   tegangan = nilai * 5.0 / 1023.0;
 }
 
-
 void klasifikasiSuara() {
   if (tegangan <= 3) {
     musik = false;
