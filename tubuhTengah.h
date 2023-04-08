@@ -4,7 +4,10 @@
 #define DEBUG true
 #include <Arduino.h>
 #include <Servo.h>
-Servo servo;  
+
+Servo servo1;  
+Servo servo2;  
+Servo servo3;  
 
 /**
  * File yang berisi sekumpulan member untuk menggambar tubuh tengah
@@ -15,15 +18,15 @@ Servo servo;
  * file ini berisi ID servo pada tiap-tiap servo yang akan digunakan pada sendi tubuh
  */
 
-int kepalaX = 1;
-int kepalaY = 2;
-int pinggangX = 3;
+int kepalaX = 2;
+int kepalaY = 3;
+int pinggangX = 4;
 
 
 void tubuhTengah() {
-  servo.attach(kepalaX);
-  servo.attach(kepalaY);
-  servo.attach(pinggangX);
+  servo1.attach(kepalaX);
+  servo2.attach(kepalaY);
+  servo3.attach(pinggangX);
 }
 
 #endif
