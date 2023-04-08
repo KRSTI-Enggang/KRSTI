@@ -4,7 +4,18 @@
 #define DEBUG true
 #include <Arduino.h>
 #include <Servo.h>
-Servo servoKanan;
+
+Servo servoKanan4;
+Servo servoKanan5;
+Servo servoKanan6;
+Servo servoKanan7;
+Servo servoKanan8;
+Servo servoKanan9;
+Servo servoKanan10;
+Servo servoKanan11;
+Servo servoKanan12;
+Servo servoKanan13;
+Servo servoKanan14;
 
 /**
  * File yang berisi sekumpulan member untuk menggambar tubuh kanan
@@ -15,29 +26,29 @@ Servo servoKanan;
  * file ini berisi ID servo pada tiap-tiap servo yang akan digunakan pada sendi tubuh
  */
 
-int pergelanganTanganKananY = 4;
-int lenganKananY = 5;
-int lenganKananX = 6;
-int bahuKananY = 7;
-int bahuKananX = 8;
-int pahaKananY = 9;
-int lututKananY = 10;
-int pergelanganKakikananY = 11;
-int pergelanganKakikananX = 12;
-int pinggulkananY = 13;
-int pinggulkananX = 14;
+int pergelanganTanganKananY = 5;
+int lenganKananY = 6;
+int lenganKananX = 7;
+int bahuKananY = 8;
+int bahuKananX = 9;
+int pahaKananY = 10;
+int lututKananY = 11;
+int pergelanganKakikananY = 12;
+int pergelanganKakikananX = 13;
+int pinggulkananY = 14;
+int pinggulkananX = 15;
 
 void tubuhKanan() {
-  servoKanan.attach(pergelanganTanganKananY);
-  servoKanan.attach(lenganKananY);
-  servoKanan.attach(lenganKananX);
-  servoKanan.attach(bahuKananY);
-  servoKanan.attach(bahuKananX);
-  servoKanan.attach(pahaKananY);
-  servoKanan.attach(lututKananY);
-  servoKanan.attach(pergelanganKakikananY);
-  servoKanan.attach(pergelanganKakikananX);
-  servoKanan.attach(pinggulkananY);
-  servoKanan.attach(pinggulkananX);
+  servoKanan4.attach(pergelanganTanganKananY);
+  servoKanan5.attach(lenganKananY);
+  servoKanan6.attach(lenganKananX);
+  servoKanan7.attach(bahuKananY);
+  servoKanan8.attach(bahuKananX);
+  servoKanan9.attach(pahaKananY);
+  servoKanan10.attach(lututKananY);
+  servoKanan11.attach(pergelanganKakikananY);
+  servoKanan12.attach(pergelanganKakikananX);
+  servoKanan13.attach(pinggulkananY);
+  servoKanan14.attach(pinggulkananX);
 }
 #endif
