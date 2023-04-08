@@ -6,7 +6,7 @@
 
 /**
  * zonaA berisi sekumpulan fungsi dan sekuensial timing yang akan memanggil 
- * member servo ID dan menuliskan derajat servo dan waktu gerakan pembuka pada zona A.
+ * member servo dan menuliskan derajat servo dan waktu gerakan pembuka pada zona A.
  */
 
 #endif
