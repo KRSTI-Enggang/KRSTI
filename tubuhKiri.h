@@ -4,7 +4,17 @@
 #define DEBUG true
 #include <Servo.h>
 #include <Arduino.h>
-Servo servoKiri;
+Servo servoKiri15;
+Servo servoKiri16;
+Servo servoKiri17;
+Servo servoKiri18;
+Servo servoKiri19;
+Servo servoKiri20;
+Servo servoKiri21;
+Servo servoKiri22;
+Servo servoKiri23;
+Servo servoKiri24;
+Servo servoKiri25;
 /**
  * File yang berisi sekumpulan member untuk menggambar tubuh tengah
  * menggunakan Servo Ax-12A ( Dynamixel) 
@@ -13,29 +23,29 @@ Servo servoKiri;
  * oleh fungsi main(), sehingga file ini akan di compile bersamaan dengan file utama
  * file ini berisi ID servo pada tiap-tiap servo yang akan digunakan pada sendi tubuh
  */
-int pergelanganTanganKiriY = 15;
-int lenganKiriY = 16;
-int lenganKiriX = 17;
-int bahuKiriY = 18;
-int bahuKiriX = 19;
-int pahaKiriY = 20;
-int lututKiriY = 21;
-int pergelanganKakiKiriY = 22;
-int pergelanganKakiKiriX = 23;
-int pinggulKiriY = 24;
-int pinggulKiriX = 25;
+int pergelanganTanganKiriY = 16;
+int lenganKiriY = 17;
+int lenganKiriX = 18;
+int bahuKiriY = 19;
+int bahuKiriX = 20;
+int pahaKiriY = 21;
+int lututKiriY = 22;
+int pergelanganKakiKiriY = 23;
+int pergelanganKakiKiriX = 24;
+int pinggulKiriY = 25;
+int pinggulKiriX = 26;
 
 void tubuhKiri() {
-  servoKiri.attach(pergelanganTanganKiriY);
-  servoKiri.attach(lenganKiriY);
-  servoKiri.attach(lenganKiriX);
-  servoKiri.attach(bahuKiriY);
-  servoKiri.attach(bahuKiriX);
-  servoKiri.attach(pahaKiriY);
-  servoKiri.attach(lututKiriY);
-  servoKiri.attach(pergelanganKakiKiriY);
-  servoKiri.attach(pergelanganKakiKiriX);
-  servoKiri.attach(pinggulKiriY);
-  servoKiri.attach(pinggulKiriX);
+  servoKiri15.attach(pergelanganTanganKiriY);
+  servoKiri16.attach(lenganKiriY);
+  servoKiri17.attach(lenganKiriX);
+  servoKiri18.attach(bahuKiriY);
+  servoKiri19.attach(bahuKiriX);
+  servoKiri20.attach(pahaKiriY);
+  servoKiri21.attach(lututKiriY);
+  servoKiri22.attach(pergelanganKakiKiriY);
+  servoKiri23.attach(pergelanganKakiKiriX);
+  servoKiri24.attach(pinggulKiriY);
+  servoKiri25.attach(pinggulKiriX);
 }
 #endif
