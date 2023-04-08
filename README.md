@@ -26,18 +26,17 @@ slave.h berisi  fungsi komunikasi antara robot 2 ke robot 1 sebagai slave yang a
 
 Definisi.h berisi kumpulan library yang digunakan,file ini bersifat global
 
-Library eksternal yang digunakan
-- HC-05 : https://github.com/jdunmire/HC05 // HC-05
-- https://github.com/ROBOTIS-GIT/Dynamixel2Arduino
-- https://github.com/pschatzmann/ESP32-A2DP
+Library yang digunakan
+- Servo
+- BluetoothSerial
 
 sisanya library bawaan dari development board
 
 Board dan hardware yang digunakan 
 - ESP32
-- HC-05 Bluetooth
-- Dynamixel AX-12A
-- Arduino Servo Compatible ?
+- Arduino Mega 2560
+- Arduino Servo Compatible ( MG996R 180 derajat dan 360 derajat juga SG90)
+- 
 
 Kerangka Mekanik 
 - ??
