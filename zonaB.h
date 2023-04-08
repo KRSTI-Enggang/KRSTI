@@ -5,8 +5,8 @@
 #define DEBUG true
 
 /**
- * zonaA berisi sekumpulan fungsi dan sekuensial timing yang akan memanggil 
- * member servo ID dan menuliskan derajat servo dan waktu gerakan tarian pada zona B.
+ * zonaB berisi sekumpulan fungsi dan sekuensial timing yang akan memanggil 
+ * member servo dan menuliskan derajat servo dan waktu gerakan tarian pada zona B.
  */
  
 #endif
