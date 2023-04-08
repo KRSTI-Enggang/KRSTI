@@ -9,7 +9,7 @@
 #include "slave.h"
 #include <Servo.h>
 
-bool modeMaster = true;
+bool modeMaster = true; //Jika master maka true,jika slave maka false.
 
 void setup() {
   //Serial Baudrate
@@ -22,7 +22,6 @@ void setup() {
 }
 
 void loop() {
-  
   //Inisiasi Sebagai master/slave
   if (modeMaster == true) {
     master();
