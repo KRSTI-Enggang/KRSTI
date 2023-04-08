@@ -40,6 +40,4 @@ void tubuhKanan() {
   servoKanan.attach(pinggulkananY);
   servoKanan.attach(pinggulkananX);
 }
-
-
 #endif
